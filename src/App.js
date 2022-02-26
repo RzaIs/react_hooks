@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+// import Counter from "./components/Counter_useState";
+import NavBar from "./components/NavBar_useEffect";
+import Themes from "./components/Themes_useMemo";
+import Form from "./components/Form_useRef";
+import ContextController from "./components/ContextController";
+import ThemeWithContext from "./components/ThemeWithContext";
+import ToDo from "./components/ToDo_useReducer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter /> */}
+      {/* <NavBar/> */}
+      {/* <Themes /> */}
+      {/* <Form /> */}
+      {/* <ContextController>
+        <ThemeWithContext/>
+      </ContextController> */}
+      <ToDo />
     </div>
   );
 }
