@@ -7,6 +7,7 @@ import Form from "./components/Form_useRef";
 import ContextController from "./components/ContextController";
 import ThemeWithContext from "./components/ThemeWithContext";
 import ToDo from "./components/ToDo_useReducer";
+import Nums from "./components/Nums_useCallBack";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <ContextController>
         <ThemeWithContext/>
       </ContextController> */}
-      <ToDo />
+      {/* <ToDo /> */}
+      {/* <Nums /> */}
     </div>
   );
 }
